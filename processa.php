@@ -11,9 +11,9 @@ $result_usuario = "INSERT INTO Usuarios (nome, ano,genero,texto) VALUES ('$nome'
 $resultado_usuario = mysqli_query($conn, $result_usuario);
 
 if(mysqli_insert_id($conn)){
-    header("Location:index123.php");
+    header("Location:index.php");
 }else{
-    header("Location:index123.php");
+    header("Location:index.php");
 }
 
 ?>
