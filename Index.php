@@ -15,29 +15,32 @@ if(isset($_POST['submit']))
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nos envie suas experiências</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    
 </head>
 <body>
     <div class="container">
-        <div class="imagem">
+        <div class="imagem">    
             <img class="crianca"src="Imagens/criancas_brincando.png" alt="imagem">
         </div>
 
         <div class="containerForm">
             <form method="POST" action="processa.php">
-                <label for="nome">Nome: </label>
+                <label for="nome">Nome</label><br>
+                <i class="fa-solid fa-user"></i>
                 <input type="text" name="nome" placeholder="Digite seu nome completo" style="width: 285px;"><br><br>
 
-                <label for="ano">Ano: </label>
+                <label for="ano">Ano</label><br>
+                <i class="fa-solid fa-book"></i>
                 <input type="text" name="ano" placeholder="Digite seu ano" style="width: 300px;"><br><br>
 
 
-                <p>Genero: </p>
+                <p>Genero</p>
                 <input type="radio" id="masculino" name="genero" value="masculino" checked>
                 <label for="masculino" class="radio">Masculino</label>
                 <input type="radio" id="feminino" name="genero" value="feminino">
                 <label for="feminino" class="radio">Feminino</label>
-                <input type="radio" id="outro" name="genero" value="outro">
+                <input type="radio" id="outro" name="genero" value="outro"> 
                 <label for="outros" class="radio">Outros</label><br><br>
 
                 <label for="texto"></label>
