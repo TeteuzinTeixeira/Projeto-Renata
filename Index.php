@@ -25,12 +25,12 @@ if(isset($_POST['submit']))
 
         <div class="containerForm">
             <form method="POST" action="processa.php">
-                <label for="nome">Nome</label><br>
-                <i class="fa-solid fa-user"></i>
+                <label for="nome">Nome<br>
+                <i class="fa-solid fa-user"></i></label>
                 <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" style="width: 325px;"><br><br>
 
-                <label for="ano">Ano</label><br>
-                <i class="fa-solid fa-book"></i>
+                <label for="ano">Ano<br>
+                <i class="fa-solid fa-book"></i></label>
                 <input type="text" id="ano" name="ano" placeholder="Digite seu ano" style="width: 325px;"><br><br>
 
 
